@@ -99,9 +99,11 @@
 		3AB03B992C6A3F3C001F5473 /* WeaningFoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				3AB03BD12C6A42B1001F5473 /* ViewModel */,
+				3AB03BD02C6A42AC001F5473 /* Model */,
+				3AB03BCF2C6A42A4001F5473 /* View */,
+				3AB03BD22C6A42B6001F5473 /* Helper */,
 				3AB03BCA2C6A3F76001F5473 /* App */,
-				3AB03B9E2C6A3F3C001F5473 /* MainViewController.swift */,
-				3AB03BCB2C6A3FB2001F5473 /* MainUIView.swift */,
 				3AB03BA32C6A3F3E001F5473 /* Assets.xcassets */,
 				3AB03BA52C6A3F3E001F5473 /* LaunchScreen.storyboard */,
 				3AB03BA82C6A3F3E001F5473 /* Info.plist */,
@@ -133,6 +135,44 @@
 				3AB03B9C2C6A3F3C001F5473 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		3AB03BCF2C6A42A4001F5473 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AB03BD32C6A42C0001F5473 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AB03BD02C6A42AC001F5473 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AB03BD12C6A42B1001F5473 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3AB03BD22C6A42B6001F5473 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3AB03BD32C6A42C0001F5473 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3AB03B9E2C6A3F3C001F5473 /* MainViewController.swift */,
+				3AB03BCB2C6A3FB2001F5473 /* MainUIView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
