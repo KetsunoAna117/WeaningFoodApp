@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		3AB03B9B2C6A3F3C001F5473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03B9A2C6A3F3C001F5473 /* AppDelegate.swift */; };
 		3AB03B9D2C6A3F3C001F5473 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03B9C2C6A3F3C001F5473 /* SceneDelegate.swift */; };
-		3AB03B9F2C6A3F3C001F5473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03B9E2C6A3F3C001F5473 /* ViewController.swift */; };
-		3AB03BA22C6A3F3C001F5473 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3AB03BA12C6A3F3C001F5473 /* Base */; };
+		3AB03B9F2C6A3F3C001F5473 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03B9E2C6A3F3C001F5473 /* MainViewController.swift */; };
 		3AB03BA42C6A3F3E001F5473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB03BA32C6A3F3E001F5473 /* Assets.xcassets */; };
 		3AB03BA72C6A3F3E001F5473 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3AB03BA62C6A3F3E001F5473 /* Base */; };
 		3AB03BB22C6A3F3F001F5473 /* WeaningFoodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03BB12C6A3F3F001F5473 /* WeaningFoodAppTests.swift */; };
 		3AB03BBC2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03BBB2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift */; };
 		3AB03BBE2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03BBD2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift */; };
+		3AB03BCC2C6A3FB2001F5473 /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03BCB2C6A3FB2001F5473 /* MainUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,7 @@
 		3AB03B972C6A3F3C001F5473 /* WeaningFoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeaningFoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB03B9A2C6A3F3C001F5473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AB03B9C2C6A3F3C001F5473 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3AB03B9E2C6A3F3C001F5473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3AB03BA12C6A3F3C001F5473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AB03B9E2C6A3F3C001F5473 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3AB03BA32C6A3F3E001F5473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AB03BA62C6A3F3E001F5473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AB03BA82C6A3F3E001F5473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		3AB03BB72C6A3F3F001F5473 /* WeaningFoodAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeaningFoodAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB03BBB2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaningFoodAppUITests.swift; sourceTree = "<group>"; };
 		3AB03BBD2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaningFoodAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AB03BCB2C6A3FB2001F5473 /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +99,9 @@
 		3AB03B992C6A3F3C001F5473 /* WeaningFoodApp */ = {
 			isa = PBXGroup;
 			children = (
-				3AB03B9A2C6A3F3C001F5473 /* AppDelegate.swift */,
-				3AB03B9C2C6A3F3C001F5473 /* SceneDelegate.swift */,
-				3AB03B9E2C6A3F3C001F5473 /* ViewController.swift */,
-				3AB03BA02C6A3F3C001F5473 /* Main.storyboard */,
+				3AB03BCA2C6A3F76001F5473 /* App */,
+				3AB03B9E2C6A3F3C001F5473 /* MainViewController.swift */,
+				3AB03BCB2C6A3FB2001F5473 /* MainUIView.swift */,
 				3AB03BA32C6A3F3E001F5473 /* Assets.xcassets */,
 				3AB03BA52C6A3F3E001F5473 /* LaunchScreen.storyboard */,
 				3AB03BA82C6A3F3E001F5473 /* Info.plist */,
@@ -125,6 +124,15 @@
 				3AB03BBD2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift */,
 			);
 			path = WeaningFoodAppUITests;
+			sourceTree = "<group>";
+		};
+		3AB03BCA2C6A3F76001F5473 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3AB03B9A2C6A3F3C001F5473 /* AppDelegate.swift */,
+				3AB03B9C2C6A3F3C001F5473 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +241,6 @@
 			files = (
 				3AB03BA42C6A3F3E001F5473 /* Assets.xcassets in Resources */,
 				3AB03BA72C6A3F3E001F5473 /* Base in Resources */,
-				3AB03BA22C6A3F3C001F5473 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AB03B9F2C6A3F3C001F5473 /* ViewController.swift in Sources */,
+				3AB03B9F2C6A3F3C001F5473 /* MainViewController.swift in Sources */,
+				3AB03BCC2C6A3FB2001F5473 /* MainUIView.swift in Sources */,
 				3AB03B9B2C6A3F3C001F5473 /* AppDelegate.swift in Sources */,
 				3AB03B9D2C6A3F3C001F5473 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3AB03BA02C6A3F3C001F5473 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AB03BA12C6A3F3C001F5473 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3AB03BA52C6A3F3E001F5473 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +447,6 @@
 				INFOPLIST_FILE = WeaningFoodApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +474,6 @@
 				INFOPLIST_FILE = WeaningFoodApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
