@@ -9,7 +9,7 @@ import UIKit
 
 class MainViewController: UIViewController {
     // this class should only filled with components
-    private var viewContainer = MainUIView()
+    private lazy var viewContainer = MainUIView()
 
     override func viewDidLoad() {
         super.viewDidLoad()

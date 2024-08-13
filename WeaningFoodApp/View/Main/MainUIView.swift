@@ -10,7 +10,7 @@ import UIKit
 class MainUIView: UIView {
     // this class should only filled with components
     
-    private var label: UILabel = {
+    private lazy var label: UILabel = {
         let label = UILabel()
         label.text = "Hello World!"
         label.translatesAutoresizingMaskIntoConstraints = false
