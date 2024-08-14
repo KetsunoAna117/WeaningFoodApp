@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ProfileViewController: UIViewController {
-	private lazy var profileView = ProfileUIView()
+	private lazy var profileSwiftUI = ProfileSwiftUIView()
+	private lazy var profileHostingController = UIHostingController(rootView: profileSwiftUI)
 	
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,15 +22,20 @@ class ProfileViewController: UIViewController {
 private extension ProfileViewController {
 	func setup() {
 		self.view.backgroundColor = .systemBackground
-		self.view.addSubview(profileView)
+		self.view.addSubview(profileHostingController.view)
+		
+		profileHostingController.view.translatesAutoresizingMaskIntoConstraints = false
+		profileHostingController.didMove(toParent: self)
+		
+		addChild(profileHostingController)
 	}
 	
 	func loadConstraint() {
 		NSLayoutConstraint.activate([
-			profileView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
-			profileView.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
-			profileView.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor),
-			profileView.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor)
+			profileHostingController.view.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
+			profileHostingController.view.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),
+			profileHostingController.view.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor),
+			profileHostingController.view.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor)
 		])
 	}
 }

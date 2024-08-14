@@ -17,11 +17,10 @@ class TabbarViewController: UITabBarController {
 
 private extension TabbarViewController {
 	func setup() {
-		let home = createNav(title: "Home", imageName: "house", selectedImageName: "house.fill", viewController: HomeViewController())
-		let tracker = createNav(title: "Tracker", imageName: "list.clipboard", selectedImageName: "list.clipboard.fill", viewController: TrackerViewController())
-		let profile = createNav(title: "Profile", imageName: "person", selectedImageName: "person.fill", viewController: ProfileViewController())
+		let recipes = createNav(title: "Recipes", imageName: "fork.knife", selectedImageName: "fork.knife", viewController: RecipesViewController())
+		let logs = createNav(title: "Logs", imageName: "list.clipboard", selectedImageName: "list.clipboard.fill", viewController: LogsViewController())
 		
-		self.setViewControllers([home, tracker, profile], animated: true)
+		self.setViewControllers([recipes, logs], animated: true)
 	}
 	
 	func createNav(title: String, imageName: String, selectedImageName: String, viewController: UIViewController) -> UINavigationController {

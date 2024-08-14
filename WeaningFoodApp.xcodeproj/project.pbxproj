@@ -16,27 +16,27 @@
 		3AB03BBC2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03BBB2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift */; };
 		3AB03BBE2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03BBD2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift */; };
 		3AB03BCC2C6A3FB2001F5473 /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03BCB2C6A3FB2001F5473 /* MainUIView.swift */; };
-		E405D2EB2C6AF06E00625194 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EA2C6AF06E00625194 /* HomeViewController.swift */; };
-		E405D2EC2C6AF06E00625194 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EA2C6AF06E00625194 /* HomeViewController.swift */; };
-		E405D2ED2C6AF06E00625194 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EA2C6AF06E00625194 /* HomeViewController.swift */; };
-		E405D2EF2C6AF36300625194 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EE2C6AF36300625194 /* TrackerViewController.swift */; };
-		E405D2F02C6AF36300625194 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EE2C6AF36300625194 /* TrackerViewController.swift */; };
-		E405D2F12C6AF36300625194 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EE2C6AF36300625194 /* TrackerViewController.swift */; };
+		E405D2EB2C6AF06E00625194 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EA2C6AF06E00625194 /* RecipesViewController.swift */; };
+		E405D2EC2C6AF06E00625194 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EA2C6AF06E00625194 /* RecipesViewController.swift */; };
+		E405D2ED2C6AF06E00625194 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EA2C6AF06E00625194 /* RecipesViewController.swift */; };
+		E405D2EF2C6AF36300625194 /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EE2C6AF36300625194 /* LogsViewController.swift */; };
+		E405D2F02C6AF36300625194 /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EE2C6AF36300625194 /* LogsViewController.swift */; };
+		E405D2F12C6AF36300625194 /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EE2C6AF36300625194 /* LogsViewController.swift */; };
 		E405D2F32C6AF37600625194 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2F22C6AF37600625194 /* ProfileViewController.swift */; };
 		E405D2F42C6AF37600625194 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2F22C6AF37600625194 /* ProfileViewController.swift */; };
 		E405D2F52C6AF37600625194 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2F22C6AF37600625194 /* ProfileViewController.swift */; };
 		E405D2F82C6AF56700625194 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2F72C6AF56700625194 /* TabbarViewController.swift */; };
 		E405D2F92C6AF56700625194 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2F72C6AF56700625194 /* TabbarViewController.swift */; };
 		E405D2FA2C6AF56700625194 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2F72C6AF56700625194 /* TabbarViewController.swift */; };
-		E405D2FF2C6B026300625194 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2FE2C6B026300625194 /* HomeUIView.swift */; };
-		E405D3002C6B026300625194 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2FE2C6B026300625194 /* HomeUIView.swift */; };
-		E405D3012C6B026300625194 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2FE2C6B026300625194 /* HomeUIView.swift */; };
-		E405D3032C6B0A5200625194 /* TrackerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3022C6B0A5200625194 /* TrackerUIView.swift */; };
-		E405D3042C6B0A5200625194 /* TrackerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3022C6B0A5200625194 /* TrackerUIView.swift */; };
-		E405D3052C6B0A5200625194 /* TrackerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3022C6B0A5200625194 /* TrackerUIView.swift */; };
-		E405D3072C6B0A6000625194 /* ProfileUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3062C6B0A6000625194 /* ProfileUIView.swift */; };
-		E405D3082C6B0A6000625194 /* ProfileUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3062C6B0A6000625194 /* ProfileUIView.swift */; };
-		E405D3092C6B0A6000625194 /* ProfileUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3062C6B0A6000625194 /* ProfileUIView.swift */; };
+		E405D3132C6C503000625194 /* RecipesSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3122C6C503000625194 /* RecipesSwiftUIView.swift */; };
+		E405D3142C6C503000625194 /* RecipesSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3122C6C503000625194 /* RecipesSwiftUIView.swift */; };
+		E405D3152C6C503000625194 /* RecipesSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3122C6C503000625194 /* RecipesSwiftUIView.swift */; };
+		E405D3172C6C55B200625194 /* LogsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3162C6C55B200625194 /* LogsSwiftUIView.swift */; };
+		E405D3182C6C55B200625194 /* LogsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3162C6C55B200625194 /* LogsSwiftUIView.swift */; };
+		E405D3192C6C55B200625194 /* LogsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3162C6C55B200625194 /* LogsSwiftUIView.swift */; };
+		E405D31B2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */; };
+		E405D31C2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */; };
+		E405D31D2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,13 +70,13 @@
 		3AB03BBB2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaningFoodAppUITests.swift; sourceTree = "<group>"; };
 		3AB03BBD2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaningFoodAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3AB03BCB2C6A3FB2001F5473 /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
-		E405D2EA2C6AF06E00625194 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		E405D2EE2C6AF36300625194 /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		E405D2EA2C6AF06E00625194 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		E405D2EE2C6AF36300625194 /* LogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewController.swift; sourceTree = "<group>"; };
 		E405D2F22C6AF37600625194 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E405D2F72C6AF56700625194 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
-		E405D2FE2C6B026300625194 /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
-		E405D3022C6B0A5200625194 /* TrackerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerUIView.swift; sourceTree = "<group>"; };
-		E405D3062C6B0A6000625194 /* ProfileUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIView.swift; sourceTree = "<group>"; };
+		E405D3122C6C503000625194 /* RecipesSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesSwiftUIView.swift; sourceTree = "<group>"; };
+		E405D3162C6C55B200625194 /* LogsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsSwiftUIView.swift; sourceTree = "<group>"; };
+		E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,8 +168,8 @@
 		3AB03BCF2C6A42A4001F5473 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E405D2FB2C6AFAF800625194 /* Home */,
-				E405D2FC2C6AFAFD00625194 /* Tracker */,
+				E405D2FB2C6AFAF800625194 /* Recipes */,
+				E405D2FC2C6AFAFD00625194 /* Logs */,
 				E405D2FD2C6AFB0300625194 /* Profile */,
 				E405D2F62C6AF54600625194 /* Tabbar */,
 				3AB03BD32C6A42C0001F5473 /* Main */,
@@ -215,29 +215,29 @@
 			path = Tabbar;
 			sourceTree = "<group>";
 		};
-		E405D2FB2C6AFAF800625194 /* Home */ = {
+		E405D2FB2C6AFAF800625194 /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
-				E405D2EA2C6AF06E00625194 /* HomeViewController.swift */,
-				E405D2FE2C6B026300625194 /* HomeUIView.swift */,
+				E405D2EA2C6AF06E00625194 /* RecipesViewController.swift */,
+				E405D3122C6C503000625194 /* RecipesSwiftUIView.swift */,
 			);
-			path = Home;
+			path = Recipes;
 			sourceTree = "<group>";
 		};
-		E405D2FC2C6AFAFD00625194 /* Tracker */ = {
+		E405D2FC2C6AFAFD00625194 /* Logs */ = {
 			isa = PBXGroup;
 			children = (
-				E405D2EE2C6AF36300625194 /* TrackerViewController.swift */,
-				E405D3022C6B0A5200625194 /* TrackerUIView.swift */,
+				E405D2EE2C6AF36300625194 /* LogsViewController.swift */,
+				E405D3162C6C55B200625194 /* LogsSwiftUIView.swift */,
 			);
-			path = Tracker;
+			path = Logs;
 			sourceTree = "<group>";
 		};
 		E405D2FD2C6AFB0300625194 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 				E405D2F22C6AF37600625194 /* ProfileViewController.swift */,
-				E405D3062C6B0A6000625194 /* ProfileUIView.swift */,
+				E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -373,16 +373,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E405D2F82C6AF56700625194 /* TabbarViewController.swift in Sources */,
-				E405D2EB2C6AF06E00625194 /* HomeViewController.swift in Sources */,
-				E405D3072C6B0A6000625194 /* ProfileUIView.swift in Sources */,
+				E405D3172C6C55B200625194 /* LogsSwiftUIView.swift in Sources */,
+				E405D2EB2C6AF06E00625194 /* RecipesViewController.swift in Sources */,
 				3AB03B9F2C6A3F3C001F5473 /* MainViewController.swift in Sources */,
+				E405D31B2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */,
 				3AB03BCC2C6A3FB2001F5473 /* MainUIView.swift in Sources */,
-				E405D2EF2C6AF36300625194 /* TrackerViewController.swift in Sources */,
-				E405D2FF2C6B026300625194 /* HomeUIView.swift in Sources */,
+				E405D2EF2C6AF36300625194 /* LogsViewController.swift in Sources */,
+				E405D3132C6C503000625194 /* RecipesSwiftUIView.swift in Sources */,
 				E405D2F32C6AF37600625194 /* ProfileViewController.swift in Sources */,
 				3AB03B9B2C6A3F3C001F5473 /* AppDelegate.swift in Sources */,
 				3AB03B9D2C6A3F3C001F5473 /* SceneDelegate.swift in Sources */,
-				E405D3032C6B0A5200625194 /* TrackerUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,14 +390,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E405D3082C6B0A6000625194 /* ProfileUIView.swift in Sources */,
-				E405D2F02C6AF36300625194 /* TrackerViewController.swift in Sources */,
+				E405D2F02C6AF36300625194 /* LogsViewController.swift in Sources */,
 				3AB03BB22C6A3F3F001F5473 /* WeaningFoodAppTests.swift in Sources */,
+				E405D31C2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */,
+				E405D3182C6C55B200625194 /* LogsSwiftUIView.swift in Sources */,
 				E405D2F42C6AF37600625194 /* ProfileViewController.swift in Sources */,
+				E405D3142C6C503000625194 /* RecipesSwiftUIView.swift in Sources */,
 				E405D2F92C6AF56700625194 /* TabbarViewController.swift in Sources */,
-				E405D2EC2C6AF06E00625194 /* HomeViewController.swift in Sources */,
-				E405D3042C6B0A5200625194 /* TrackerUIView.swift in Sources */,
-				E405D3002C6B026300625194 /* HomeUIView.swift in Sources */,
+				E405D2EC2C6AF06E00625194 /* RecipesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,15 +405,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E405D3092C6B0A6000625194 /* ProfileUIView.swift in Sources */,
 				3AB03BBE2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift in Sources */,
-				E405D2F12C6AF36300625194 /* TrackerViewController.swift in Sources */,
-				E405D3012C6B026300625194 /* HomeUIView.swift in Sources */,
-				E405D3052C6B0A5200625194 /* TrackerUIView.swift in Sources */,
+				E405D2F12C6AF36300625194 /* LogsViewController.swift in Sources */,
+				E405D3152C6C503000625194 /* RecipesSwiftUIView.swift in Sources */,
+				E405D31D2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */,
+				E405D3192C6C55B200625194 /* LogsSwiftUIView.swift in Sources */,
 				E405D2FA2C6AF56700625194 /* TabbarViewController.swift in Sources */,
 				E405D2F52C6AF37600625194 /* ProfileViewController.swift in Sources */,
 				3AB03BBC2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift in Sources */,
-				E405D2ED2C6AF06E00625194 /* HomeViewController.swift in Sources */,
+				E405D2ED2C6AF06E00625194 /* RecipesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,7 +570,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SW8FY3LA3R;
+				DEVELOPMENT_TEAM = 749DSANFYP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeaningFoodApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -597,7 +597,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SW8FY3LA3R;
+				DEVELOPMENT_TEAM = 749DSANFYP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeaningFoodApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
