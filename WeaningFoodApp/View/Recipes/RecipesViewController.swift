@@ -28,13 +28,14 @@ private extension RecipesViewController {
 		recipesHostingController.didMove(toParent: self)
 		
 		addChild(recipesHostingController)
+        navigationController?.setNavigationBarHidden(true, animated: false)
 	}
 	
 	func loadConstraint() {
 		NSLayoutConstraint.activate([
 			recipesHostingController.view.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
 			recipesHostingController.view.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
-			recipesHostingController.view.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+			recipesHostingController.view.topAnchor.constraint(equalTo: view.topAnchor),
 			recipesHostingController.view.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
 		])
 	}

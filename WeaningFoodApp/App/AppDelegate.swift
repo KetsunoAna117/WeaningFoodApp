@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import SwiftUI
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -33,4 +33,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

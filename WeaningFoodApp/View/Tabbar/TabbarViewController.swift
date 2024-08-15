@@ -30,8 +30,8 @@ private extension TabbarViewController {
 		
 		nav.tabBarItem.title = title
 		nav.tabBarItem = UITabBarItem(title: title, image: UIImage(systemName: imageName), selectedImage: UIImage(systemName: selectedImageName))
-		nav.viewControllers.first?.navigationItem.title = title
-		nav.viewControllers.first?.navigationController?.navigationBar.prefersLargeTitles = true
+//		nav.viewControllers.first?.navigationItem.title = title
+//		nav.viewControllers.first?.navigationController?.navigationBar.prefersLargeTitles = true
 		
 		return nav
 	}
