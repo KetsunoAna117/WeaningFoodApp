@@ -16,6 +16,8 @@
 		3AB03BBC2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03BBB2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift */; };
 		3AB03BBE2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03BBD2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift */; };
 		3AB03BCC2C6A3FB2001F5473 /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03BCB2C6A3FB2001F5473 /* MainUIView.swift */; };
+		3AB03C292C6D9F61001F5473 /* StartingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03C282C6D9F61001F5473 /* StartingPageViewController.swift */; };
+		3AB03C2B2C6D9F78001F5473 /* StartingPageSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB03C2A2C6D9F78001F5473 /* StartingPageSwiftUIView.swift */; };
 		E405D2EB2C6AF06E00625194 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EA2C6AF06E00625194 /* RecipesViewController.swift */; };
 		E405D2EC2C6AF06E00625194 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EA2C6AF06E00625194 /* RecipesViewController.swift */; };
 		E405D2ED2C6AF06E00625194 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D2EA2C6AF06E00625194 /* RecipesViewController.swift */; };
@@ -76,6 +78,8 @@
 		3AB03BBB2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaningFoodAppUITests.swift; sourceTree = "<group>"; };
 		3AB03BBD2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaningFoodAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3AB03BCB2C6A3FB2001F5473 /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
+		3AB03C282C6D9F61001F5473 /* StartingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPageViewController.swift; sourceTree = "<group>"; };
+		3AB03C2A2C6D9F78001F5473 /* StartingPageSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPageSwiftUIView.swift; sourceTree = "<group>"; };
 		E405D2EA2C6AF06E00625194 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		E405D2EE2C6AF36300625194 /* LogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewController.swift; sourceTree = "<group>"; };
 		E405D2F22C6AF37600625194 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 		3AB03BCF2C6A42A4001F5473 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3AB03C272C6D9BC8001F5473 /* Onboarding */,
 				E405D2FB2C6AFAF800625194 /* Recipes */,
 				E405D31E2C6CCA4E00625194 /* Collections */,
 				E405D2FC2C6AFAFD00625194 /* Logs */,
@@ -214,6 +219,15 @@
 				3AB03BCB2C6A3FB2001F5473 /* MainUIView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		3AB03C272C6D9BC8001F5473 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3AB03C282C6D9F61001F5473 /* StartingPageViewController.swift */,
+				3AB03C2A2C6D9F78001F5473 /* StartingPageSwiftUIView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		E405D2F62C6AF54600625194 /* Tabbar */ = {
@@ -394,6 +408,7 @@
 				E405D3202C6CCA7E00625194 /* CollectionsViewController.swift in Sources */,
 				E405D2F82C6AF56700625194 /* TabbarViewController.swift in Sources */,
 				E405D3172C6C55B200625194 /* LogsSwiftUIView.swift in Sources */,
+				3AB03C2B2C6D9F78001F5473 /* StartingPageSwiftUIView.swift in Sources */,
 				E405D2EB2C6AF06E00625194 /* RecipesViewController.swift in Sources */,
 				3AB03B9F2C6A3F3C001F5473 /* MainViewController.swift in Sources */,
 				E405D31B2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */,
@@ -402,6 +417,7 @@
 				E405D3132C6C503000625194 /* RecipesSwiftUIView.swift in Sources */,
 				E405D2F32C6AF37600625194 /* ProfileViewController.swift in Sources */,
 				3AB03B9B2C6A3F3C001F5473 /* AppDelegate.swift in Sources */,
+				3AB03C292C6D9F61001F5473 /* StartingPageViewController.swift in Sources */,
 				3AB03B9D2C6A3F3C001F5473 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

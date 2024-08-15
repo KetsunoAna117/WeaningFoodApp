@@ -21,7 +21,10 @@ class CollectionsViewController: UIViewController {
 
 private extension CollectionsViewController {
 	func setup() {
-		self.view.backgroundColor = .systemBackground
+		if let backgroundColor = UIColor(named: "BackgroundColor") {
+			self.view.backgroundColor = backgroundColor
+		}
+		
 		self.view.addSubview(collectionsHostingController.view)
 		
 		collectionsHostingController.view.translatesAutoresizingMaskIntoConstraints = false
