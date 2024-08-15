@@ -4,11 +4,6 @@
 //
 //  Created by Gusti Rizky Fajar on 14/08/24.
 //
-//  HomeSwiftUIView.swift
-//  WeaningFoodApp
-//
-//  Created by Gusti Rizky Fajar on 14/08/24.
-//
 
 import SwiftUI
 

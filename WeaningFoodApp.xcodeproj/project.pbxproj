@@ -45,6 +45,12 @@
 		E405D3242C6CCAA300625194 /* CollectionsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3232C6CCAA300625194 /* CollectionsSwiftUIView.swift */; };
 		E405D3252C6CCAA300625194 /* CollectionsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3232C6CCAA300625194 /* CollectionsSwiftUIView.swift */; };
 		E405D3262C6CCAA300625194 /* CollectionsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3232C6CCAA300625194 /* CollectionsSwiftUIView.swift */; };
+		E65747FD2C6DBBA00097176F /* BabyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65747FC2C6DBBA00097176F /* BabyProfile.swift */; };
+		E65747FE2C6DBBA00097176F /* BabyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65747FC2C6DBBA00097176F /* BabyProfile.swift */; };
+		E65747FF2C6DBBA00097176F /* BabyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65747FC2C6DBBA00097176F /* BabyProfile.swift */; };
+		E65748012C6DBC1B0097176F /* BabyMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65748002C6DBC1B0097176F /* BabyMeal.swift */; };
+		E65748022C6DBC1B0097176F /* BabyMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65748002C6DBC1B0097176F /* BabyMeal.swift */; };
+		E65748032C6DBC1B0097176F /* BabyMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65748002C6DBC1B0097176F /* BabyMeal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +95,8 @@
 		E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSwiftUIView.swift; sourceTree = "<group>"; };
 		E405D31F2C6CCA7E00625194 /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
 		E405D3232C6CCAA300625194 /* CollectionsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsSwiftUIView.swift; sourceTree = "<group>"; };
+		E65747FC2C6DBBA00097176F /* BabyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BabyProfile.swift; path = WeaningFoodApp/BabyProfile.swift; sourceTree = SOURCE_ROOT; };
+		E65748002C6DBC1B0097176F /* BabyMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BabyMeal.swift; path = WeaningFoodApp/BabyMeal.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +202,8 @@
 		3AB03BD02C6A42AC001F5473 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E65747FC2C6DBBA00097176F /* BabyProfile.swift */,
+				E65748002C6DBC1B0097176F /* BabyMeal.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -410,12 +420,14 @@
 				E405D3172C6C55B200625194 /* LogsSwiftUIView.swift in Sources */,
 				3AB03C2B2C6D9F78001F5473 /* StartingPageSwiftUIView.swift in Sources */,
 				E405D2EB2C6AF06E00625194 /* RecipesViewController.swift in Sources */,
+				E65747FD2C6DBBA00097176F /* BabyProfile.swift in Sources */,
 				3AB03B9F2C6A3F3C001F5473 /* MainViewController.swift in Sources */,
 				E405D31B2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */,
 				3AB03BCC2C6A3FB2001F5473 /* MainUIView.swift in Sources */,
 				E405D2EF2C6AF36300625194 /* LogsViewController.swift in Sources */,
 				E405D3132C6C503000625194 /* RecipesSwiftUIView.swift in Sources */,
 				E405D2F32C6AF37600625194 /* ProfileViewController.swift in Sources */,
+				E65748012C6DBC1B0097176F /* BabyMeal.swift in Sources */,
 				3AB03B9B2C6A3F3C001F5473 /* AppDelegate.swift in Sources */,
 				3AB03C292C6D9F61001F5473 /* StartingPageViewController.swift in Sources */,
 				3AB03B9D2C6A3F3C001F5473 /* SceneDelegate.swift in Sources */,
@@ -428,9 +440,11 @@
 			files = (
 				E405D3212C6CCA7E00625194 /* CollectionsViewController.swift in Sources */,
 				E405D2F02C6AF36300625194 /* LogsViewController.swift in Sources */,
+				E65747FE2C6DBBA00097176F /* BabyProfile.swift in Sources */,
 				E405D3252C6CCAA300625194 /* CollectionsSwiftUIView.swift in Sources */,
 				3AB03BB22C6A3F3F001F5473 /* WeaningFoodAppTests.swift in Sources */,
 				E405D31C2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */,
+				E65748022C6DBC1B0097176F /* BabyMeal.swift in Sources */,
 				E405D3182C6C55B200625194 /* LogsSwiftUIView.swift in Sources */,
 				E405D2F42C6AF37600625194 /* ProfileViewController.swift in Sources */,
 				E405D3142C6C503000625194 /* RecipesSwiftUIView.swift in Sources */,
@@ -449,9 +463,11 @@
 				E405D3222C6CCA7E00625194 /* CollectionsViewController.swift in Sources */,
 				E405D3152C6C503000625194 /* RecipesSwiftUIView.swift in Sources */,
 				E405D31D2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */,
+				E65747FF2C6DBBA00097176F /* BabyProfile.swift in Sources */,
 				E405D3192C6C55B200625194 /* LogsSwiftUIView.swift in Sources */,
 				E405D2FA2C6AF56700625194 /* TabbarViewController.swift in Sources */,
 				E405D2F52C6AF37600625194 /* ProfileViewController.swift in Sources */,
+				E65748032C6DBC1B0097176F /* BabyMeal.swift in Sources */,
 				3AB03BBC2C6A3F3F001F5473 /* WeaningFoodAppUITests.swift in Sources */,
 				E405D2ED2C6AF06E00625194 /* RecipesViewController.swift in Sources */,
 			);
