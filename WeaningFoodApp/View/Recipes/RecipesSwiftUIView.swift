@@ -25,17 +25,18 @@ struct RecipesSwiftUIView: View {
             
             HStack {
                 Image(systemName: "magnifyingglass")
-                    .foregroundColor(.gray)
+                    .foregroundColor(Color(.tertiaryLabel))
                 TextField("Search from ingredients", text: $searchText)
-                Image(systemName: "mic")
-                    .foregroundColor(.gray)
             }
-            .padding()
-            .background(Color(.systemGray6))
+            .padding(.horizontal)
+            .padding(.vertical, 8)
+            .background(Color(.tertiarySystemFill))
             .cornerRadius(10)
             
             Text("Try our recommendations for your 6 months old!")
-                .font(.headline)
+                .font(.system(size: 12))
+                .fontWeight(.bold)
+                .padding(.top)
             
             ScrollView{
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 15) {
@@ -43,9 +44,18 @@ struct RecipesSwiftUIView: View {
                         RecipeCard(emoji: "🍠", name: "Sweet Potato Noodles")
                     }
                 }
+                Image(systemName: "arrow.clockwise.circle.fill")
+                    .font(.system(size: 48))
+                    .foregroundColor(.accent)
+                    .padding(.top)
             }
+
+            Spacer()
+            
         }
-        .padding()
+        .padding(.top)
+        .padding(.horizontal)
+        .background(.appBackground)
     }
 }
 
@@ -66,16 +76,17 @@ struct RecipeCard: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .init(horizontal: .center, vertical: .top))
             .padding()
-            .background(Color(.systemGray6))
+            .background(.exploreCardBackground)
             .cornerRadius(10)
             
             Button(action: {
                 // Add heart action here
             }) {
                 Image(systemName: "heart")
-                    .foregroundColor(.primary)
-                    .padding(8)
+                    .foregroundColor(.accent)
+                    .padding(20)
             }
+            .scaleEffect(1.5)
         }
     }
 }
