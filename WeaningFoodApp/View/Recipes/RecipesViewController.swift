@@ -16,7 +16,6 @@ class RecipesViewController: UIViewController {
         super.viewDidLoad()
 		setup()
 		loadConstraint()
-		configureToolbar()
     }
 }
 
@@ -38,17 +37,5 @@ private extension RecipesViewController {
 			recipesHostingController.view.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
 			recipesHostingController.view.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
 		])
-	}
-	
-	func configureToolbar() {
-		let profileIcon = UIBarButtonItem(image: UIImage(systemName: "person.crop.circle"), style: .plain, target: self, action: #selector(profileTapped))
-		
-		self.navigationItem.rightBarButtonItem = profileIcon
-	}
-	
-	@objc
-	func profileTapped() {
-		let profileView = ProfileViewController()
-		self.navigationController?.pushViewController(profileView, animated: true)
 	}
 }

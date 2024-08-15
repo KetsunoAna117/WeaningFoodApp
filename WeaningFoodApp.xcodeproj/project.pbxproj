@@ -37,6 +37,12 @@
 		E405D31B2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */; };
 		E405D31C2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */; };
 		E405D31D2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */; };
+		E405D3202C6CCA7E00625194 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D31F2C6CCA7E00625194 /* CollectionsViewController.swift */; };
+		E405D3212C6CCA7E00625194 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D31F2C6CCA7E00625194 /* CollectionsViewController.swift */; };
+		E405D3222C6CCA7E00625194 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D31F2C6CCA7E00625194 /* CollectionsViewController.swift */; };
+		E405D3242C6CCAA300625194 /* CollectionsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3232C6CCAA300625194 /* CollectionsSwiftUIView.swift */; };
+		E405D3252C6CCAA300625194 /* CollectionsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3232C6CCAA300625194 /* CollectionsSwiftUIView.swift */; };
+		E405D3262C6CCAA300625194 /* CollectionsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405D3232C6CCAA300625194 /* CollectionsSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +83,8 @@
 		E405D3122C6C503000625194 /* RecipesSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesSwiftUIView.swift; sourceTree = "<group>"; };
 		E405D3162C6C55B200625194 /* LogsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsSwiftUIView.swift; sourceTree = "<group>"; };
 		E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSwiftUIView.swift; sourceTree = "<group>"; };
+		E405D31F2C6CCA7E00625194 /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
+		E405D3232C6CCAA300625194 /* CollectionsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				E405D2FB2C6AFAF800625194 /* Recipes */,
+				E405D31E2C6CCA4E00625194 /* Collections */,
 				E405D2FC2C6AFAFD00625194 /* Logs */,
 				E405D2FD2C6AFB0300625194 /* Profile */,
 				E405D2F62C6AF54600625194 /* Tabbar */,
@@ -240,6 +249,15 @@
 				E405D31A2C6C55C300625194 /* ProfileSwiftUIView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		E405D31E2C6CCA4E00625194 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				E405D31F2C6CCA7E00625194 /* CollectionsViewController.swift */,
+				E405D3232C6CCAA300625194 /* CollectionsSwiftUIView.swift */,
+			);
+			path = Collections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E405D3242C6CCAA300625194 /* CollectionsSwiftUIView.swift in Sources */,
+				E405D3202C6CCA7E00625194 /* CollectionsViewController.swift in Sources */,
 				E405D2F82C6AF56700625194 /* TabbarViewController.swift in Sources */,
 				E405D3172C6C55B200625194 /* LogsSwiftUIView.swift in Sources */,
 				E405D2EB2C6AF06E00625194 /* RecipesViewController.swift in Sources */,
@@ -390,7 +410,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E405D3212C6CCA7E00625194 /* CollectionsViewController.swift in Sources */,
 				E405D2F02C6AF36300625194 /* LogsViewController.swift in Sources */,
+				E405D3252C6CCAA300625194 /* CollectionsSwiftUIView.swift in Sources */,
 				3AB03BB22C6A3F3F001F5473 /* WeaningFoodAppTests.swift in Sources */,
 				E405D31C2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */,
 				E405D3182C6C55B200625194 /* LogsSwiftUIView.swift in Sources */,
@@ -407,6 +429,8 @@
 			files = (
 				3AB03BBE2C6A3F3F001F5473 /* WeaningFoodAppUITestsLaunchTests.swift in Sources */,
 				E405D2F12C6AF36300625194 /* LogsViewController.swift in Sources */,
+				E405D3262C6CCAA300625194 /* CollectionsSwiftUIView.swift in Sources */,
+				E405D3222C6CCA7E00625194 /* CollectionsViewController.swift in Sources */,
 				E405D3152C6C503000625194 /* RecipesSwiftUIView.swift in Sources */,
 				E405D31D2C6C55C300625194 /* ProfileSwiftUIView.swift in Sources */,
 				E405D3192C6C55B200625194 /* LogsSwiftUIView.swift in Sources */,
